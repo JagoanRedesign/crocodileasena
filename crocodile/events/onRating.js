@@ -1,4 +1,4 @@
-const {getChatRating} = require('./crocodile/rating')
+
 
 module.exports = async (msg,bot) => {
     try {
