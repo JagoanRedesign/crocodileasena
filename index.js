@@ -8,6 +8,11 @@ const onRating = require('./crocodile/events/onRating')
 const onMyRating = require('./crocodile/events/onMyRating')
 const onCallbackQuery = require('./crocodile/events/onCallbackQuery')
 
+const Promise = require('bluebird');
+Promise.config({
+  cancellation: true
+});
+
 const botConfig = {
     polling: {
         interval: 300,
