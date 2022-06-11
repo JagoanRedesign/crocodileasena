@@ -1,1 +1,1 @@
-worker: node /crocodile/startGame.js
+worker: node /.crocodile/startGame.js
