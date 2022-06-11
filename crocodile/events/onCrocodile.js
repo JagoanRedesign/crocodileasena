@@ -1,4 +1,4 @@
-const {startGame} = require('./crocodile/startGame')
+const {startGame} = require('./crocodile_tg/crocodile/startGame')
 
 module.exports = (msg,bot) => {
     try {
