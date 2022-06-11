@@ -1,6 +1,4 @@
 
-const {getUserRating} = require('./crocodile/rating')
-
 module.exports = async (msg,bot) => {
     try {
         bot.deleteMessage(msg.chat.id,msg.message_id)
